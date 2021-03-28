@@ -1,0 +1,2 @@
+1. cd C:\xampp\htdocs\chual_project
+2. git pull

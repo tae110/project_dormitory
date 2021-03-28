@@ -1,0 +1,7 @@
+ALTER TABLE `tbl_dormitory_owner` ADD `do_account_number` VARCHAR(75) NULL DEFAULT NULL COMMENT 'เลขที่บัญชี เเละธนาคาร' AFTER `do_id`, ADD `do_pompay` VARCHAR(75) NULL DEFAULT NULL COMMENT 'พร้อมเพย์' AFTER `do_account_number`;
+
+
+ALTER TABLE `tbl_bookings` ADD `bk_total` INT NOT NULL COMMENT 'ราคารวม' AFTER `bk_c_email`;
+
+
+ 
